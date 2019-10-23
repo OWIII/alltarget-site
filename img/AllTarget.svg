@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="259" height="61" viewBox="0 0 259 61">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 36px;
+        fill: #f8384f;
+        font-family: Lato;
+        font-weight: 800;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <text id="AllTarget" class="cls-1" transform="translate(1.117 48.53) scale(1.775 1.787)">All<tspan class="cls-2">Target</tspan></text>
+</svg>

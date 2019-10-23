@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alltarget-main</title>
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/fm.revealator.jquery.css">
+  <link rel="stylesheet" type="text/css" href="css/slick.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+  <div class="wrapper-all">
+    <!-- Header -->
+    <header class="header" id="header">
+      <div class="container">
+        <nav class="header--navigation">
+          <a class="main-logo" href="index.html">
+            <img src="img/logo.png" alt="Logo alltarget.ru" width="233" height="60">
+          </a>
+          <div class="header-left">
+            <ul class="header--list mobile-menu">
+              <li class="header--item">
+                <a href="index.html">
+                  Главная
+                </a>
+              </li>
+              <li class="header--item">
+                <a href="#">
+                  О нас
+                </a>
+              </li>
+              <li class="header--item">
+                <a href="articles.html">
+                  Статьи
+                </a>
+              </li>
+              <li class="header--item">
+                <a href="#">
+                  Приложения
+                </a>
+              </li>
+              <li class="header--item">
+                <a href="#">
+                  Услуги
+                </a>
+              </li>
+              <li class="header--item">
+                <a href="#">
+                  Контакты
+                </a>
+              </li>
+              <li class="header--item enter-link">
+                <a href="#">
+                  Войти в личный кабинет
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="header--right">
+            <button class="header-btn search">
+            </button>
+            <button class="header-btn basket">
+            </button>
+            <button class="header-btn login">
+            </button>
+            <div class="popup-search">
+              <input type="search" name="header-search">
+            </div>
+            <svg class="ham hamRotate ham4" viewBox="0 0 100 100" width="60">
+              <path class="line top" d="m 70,33 h -40 c 0,0 -8.5,-0.149796 -8.5,8.5 0,8.649796 8.5,8.5 8.5,8.5 h 20 v -20" />
+              <path class="line middle" d="m 70,50 h -40" />
+              <path class="line bottom" d="m 30,67 h 40 c 0,0 8.5,0.149796 8.5,-8.5 0,-8.649796 -8.5,-8.5 -8.5,-8.5 h -20 v 20" />
+            </svg>
+          </div>
+        </nav>
+        <div class="header--offer">
+          <h1>Делаем <span>Маркетинг</span>
+            в социальных сетях</h1>
+          <p>Делаем Ваш бизнес прибыльным, помогаем получать только целевой трафик и конвертировать его в продажи</p>
+          <button class="btn btn-offer">
+            Подробнее
+          </button>
+        </div>
+    </header>
+    <!-- Subscription -->
+    <section class="subscription">
+      <h2>
+        Оформите <span>подписку</span>
+        просто указав email
+      </h2>
+      <div class="subscription--email">
+        <form id="subscribe">
+          <div class="wrapper-form">
+            <input form="subscribe" type="email" name="email" placeholder="Введите ваш email...">
+            <input type="submit" value="" form="subscribe">
+          </div>
+        </form>
+      </div>
+    </section>
+    <!-- Best Acticles -->
+    <section class="articles">
+      <div class="articles--tittle">
+        <h2>Лучшие <span>статьи</span>
+          от наших авторов</h2>
+        <p>Аналитические и практические материалы
+          от аналитиков и экспертов</p>
+        <button class="btn btn-articles">
+          Все статьи
+        </button>
+      </div>
+      <div class="articles--images">
+        <a filter="hover" href="article-item.html">
+          <p class="articles-text">Как создать имидж
+            компании в интернете?</p>
+          <img alt="Seo article 1" src="img/article-img-1.jpg">
+        </a>
+        <a filter="hover" href="article-item.html">
+          <p class="articles-text">Как создать имидж
+            компании в интернете?</p><img alt="Seo article 2" src="img/article-img-2.jpg">
+        </a>
+        <a filter="hover" href="article-item.html">
+          <p class="articles-text">Как создать имидж
+            компании в интернете?</p><img alt="Seo article 3" src="img/article-img-3.jpg">
+        </a>
+        <a filter="hover" href="article-item.html">
+          <p class="articles-text">Как создать имидж
+            компании в интернете?</p><img alt="Seo article 4" src="img/article-img-4.jpg">
+        </a>
+        <a filter="hover" href="article-item.html">
+          <p class="articles-text">Как создать имидж
+            компании в интернете?</p><img alt="Seo article 5" src="img/article-img-5.jpg">
+        </a>
+        <a filter="hover" href="article-item.html">
+          <p class="articles-text">Как создать имидж
+            компании в интернете?</p><img alt="Seo article 6" src="img/article-img-6.jpg">
+        </a>
+      </div>
+    </section>
+    <!-- Promo offer -->
+    <section class="promo-offer">
+      <div class="container">
+        <h3 class="promo-offer--tittle">
+          Рекламное предложение
+        </h3>
+        <p class="promo-offer--text">
+          В честь праздника мы дарим всем нашим клиентам скидку в 20% на наши услуги
+        </p>
+        <button class="promo-offer--btn">
+          получить подарок
+        </button>
+      </div>
+    </section>
+    <!-- Web Applications -->
+    <section class="applications">
+      <div class="container">
+        <h2 class="applications--tittle">
+          Создаем <span>web</span> приложения
+        </h2>
+        <p class="applications--text">
+          Наши популярные продукты для автоматизации маркетинга
+        </p>
+        <div class="applications--cards">
+          <div class="applications-item">
+            <img src="img/make-text-logo.png" alt="Логотип приложения MakeText" width="104" height="104">
+            <h4>Make Text</h4>
+            <p>Он-лайн инструмент
+              для подсчета количества
+              символов в тексте </p>
+            <a class="block-show" href="#">Открыть
+            </a>
+          </div>
+          <div class="applications-item">
+            <img src="img/make-text-logo.png" alt="Логотип приложения MakeText" width="104" height="104">
+            <h4>Make Text</h4>
+            <p>Он-лайн инструмент
+              для подсчета количества
+              символов в тексте </p>
+            <a class="block-show" href="#">Открыть
+            </a>
+          </div>
+          <div class="applications-item"><img src="img/make-text-logo.png" alt="Логотип приложения MakeText" width="104" height="104">
+            <h4>Make Text</h4>
+            <p>Он-лайн инструмент
+              для подсчета количества
+              символов в тексте </p>
+            <a class="block-show" href="#">Открыть
+            </a>
+          </div>
+          <div class="applications-item"><img src="img/make-text-logo.png" alt="Логотип приложения MakeText" width="104" height="104">
+            <h4>Make Text</h4>
+            <p>Он-лайн инструмент
+              для подсчета количества
+              символов в тексте </p>
+            <a class="block-show" href="#">Открыть
+            </a>
+          </div>
+          <div class="applications-item"><img src="img/make-text-logo.png" alt="Логотип приложения MakeText" width="104" height="104">
+            <h4>Make Text</h4>
+            <p>Он-лайн инструмент
+              для подсчета количества
+              символов в тексте </p>
+            <a class="block-show" href="#">Открыть
+            </a>
+          </div>
+          <div class="applications-item"><img src="img/make-text-logo.png" alt="Логотип приложения MakeText" width="104" height="104">
+            <h4>Make Text</h4>
+            <p>Он-лайн инструмент
+              для подсчета количества
+              символов в тексте </p>
+            <a class="block-show" href="#">Открыть
+            </a>
+          </div>
+        </div>
+        <button class="btn btn-applications">
+          Все приложения
+        </button>
+      </div>
+    </section>
+    <!-- Our services -->
+    <section class="services">
+      <div class="container">
+        <h2 class="services--tittle">Наши услуги</h2>
+        <div class="services--slider">
+          <div class="services--item">
+            <h5>Продвижение</h5>
+            <p>Правильная SMM-стратегия позволяет выстроить коммуникацию с пользователем, увеличить лояльность к бренду и открыть для своего бизнеса новый эффективный канал для роста продаж.</p>
+          </div>
+          <div class="services--item">
+            <h5>Продвижение</h5>
+            <p>Правильная SMM-стратегия позволяет выстроить коммуникацию с пользователем, увеличить лояльность к бренду и открыть для своего бизнеса новый эффективный канал для роста продаж.</p>
+          </div>
+          <div class="services--item">
+            <h5>Продвижение</h5>
+            <p>Правильная SMM-стратегия позволяет выстроить коммуникацию с пользователем, увеличить лояльность к бренду и открыть для своего бизнеса новый эффективный канал для роста продаж.</p>
+          </div>
+          <div class="services--item">
+            <h5>Продвижение</h5>
+            <p>Правильная SMM-стратегия позволяет выстроить коммуникацию с пользователем, увеличить лояльность к бренду и открыть для своего бизнеса новый эффективный канал для роста продаж.</p>
+          </div>
+          <div class="services--item">
+            <h5>Продвижение</h5>
+            <p>Правильная SMM-стратегия позволяет выстроить коммуникацию с пользователем, увеличить лояльность к бренду и открыть для своего бизнеса новый эффективный канал для роста продаж.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contacts -->
+    <section class="contacts">
+      <div class="container">
+        <div class="wrapper-contacts">
+          <form class="contacts--form" id="contacts-form">
+            <h3 class="contacts--tittle">
+              Оформите <span>заявку</span>
+            </h3>
+            <p class="contacts--text">
+              и мы свяжемся в течении часа
+            </p>
+            <div class="contacts--form">
+              <div class="contacts--inputs">
+                <div class="contacts-left">
+                  <p>
+                    <label for="name">Имя и фамилия</label>
+                    <input class="contacts--name" placeholder="Oleg Patsai" type="text" name="name">
+                  </p>
+                  <p>
+                    <label for="money">бюджет</label>
+                    <select form="contacts-form" class="contacts--money" name="money">
+                      <option>5 000 руб</option>
+                      <option>10 000 руб</option>
+                      <option>50 000 руб</option>
+                      <option>100 000 руб</option>
+                    </select>
+                  </p>
+                  <p>
+                    <label for="service">услуга</label>
+                    <select class="contacts--service" name="service">
+                      <option>Продвижение</option>
+                      <option>Продвижение</option>
+                      <option>Продвижение</option>
+                      <option>Продвижение</option>
+                    </select>
+                  </p>
+                </div>
+                <div class="contacts-right">
+                  <p>
+                    <label for="email">E-mail</label>
+                    <input class="contacts--email" type="email" name="email" placeholder="oleg@patcai.com">
+                  </p>
+                  <p>
+                    <label for="phone">телефон</label>
+                    <input class="contacts--phone" type="tel" name="phone" placeholder="+7 999 676 52 21">
+                  </p>
+                </div>
+              </div>
+              <p class="contacts--textarea">
+                <label for="textarea">текст сообщения</label>
+                <textarea form="contacts-form" placeholder="Здравствуйте, хочу продвинуть свою группу вконтакте" name="textarea"></textarea>
+              </p>
+            </div>
+            <div class="checkbox--block">
+              <p>
+                <input class="checkbox contacts--checkbox" id="checkbox" type="checkbox" name="checkbox-contacts">
+                <label for="checkbox">Прислать мне копию</label>
+              </p>
+              <input class="btn contacts--button" type="submit" name="button" value="Отправить заявку">
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer" id="footer">
+      <div class="container">
+        <div class="footer--wrapper">
+          <div class="footer--social">
+            <h5>Подписывайтесь</br>
+              на наши социальные сети:</h5>
+            <div class="footer--icons">
+              <a href="#" class="footer--item twitter">
+                <span class="counter">16</span>
+              </a>
+              <a href="#" class="footer--item facebook">
+                <span class="counter">78</span>
+              </a>
+              <a href="#" class="footer--item yandex">
+                <span class="counter">2</span>
+              </a>
+              <a href="#" class="footer--item vkontakte">
+                <span class="counter">11</span>
+              </a>
+              <a href="#" class="footer--item telegram">
+                <span class="counter">16</span>
+              </a>
+              <a href="#" class="footer--item youtube">
+                <span class="counter">78</span>
+              </a>
+            </div>
+            <a class="main-logo" href="index.html">
+              <img src="img/logo.png" alt="Logo alltarget.ru" width="233" height="60">
+            </a>
+          </div>
+          <div class="footer--information">
+            <div class="footer--categories">
+              <h6>Категории</h6>
+              <ul class="footer-list">
+                <li class="footer--list-item">
+                  <a href="#">Главная</a>
+                </li>
+                <li class="footer--list-item">
+                  <a href="#">Приложения</a>
+                </li>
+                <li class="footer--list-item">
+                  <a href="#">Наши услуги</a>
+                </li>
+                <li class="footer--list-item">
+                  <a href="#">Оставить заявку</a>
+                </li>
+              </ul>
+            </div>
+            <div class="legal">
+              <h6>Категории</h6>
+              <ul class="footer-list">
+                <li class="footer--list-item">
+                  <a href="#">ИП Иванов Иван Иванович</a>
+                </li>
+                <li class="footer--list-item">
+                  <a href="#">ОГРН 123123123123123</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <p class="rights">© 2019 <span>All Target</span> Все права защищены </p>
+      </div>
+    </footer>
+  </div>
+  <!-- Modal window autorization -->
+  <div class="modal modal-login">
+    <div class="login_cabinet">
+      <h2>
+        Личный кабинет
+      </h2>
+      <p class="please">Введите логин и пароль</p>
+      <form class="login_form" action="#" method="post">
+        <p class="login">
+          <input class="login_item" type="text" name="login" value="" placeholder="Логин">
+        </p>
+        <p class="password">
+          <input class="password_item" type="password" name="password" value="" placeholder="Пароль">
+        </p>
+        <div class="checkbox--modal">
+          <p>
+            <input class="checkbox" id="checkbox-modal" type="checkbox" name="checkbox-contacts">
+            <label for="checkbox-modal">Запомнить</label>
+          </p>
+          <a href="#">Я забыл пароль!</a>
+        </div>
+        <button class=" btn button_login" type="submit">Войти</button>
+      </form>
+      <button class=" btn button_registration" type="submit">Регистрация</button>
+    </div>
+    <script src="js/jquery.slim.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/fm.revealator.jquery.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
